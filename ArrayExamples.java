@@ -35,8 +35,19 @@ public class ArrayExamples {
       if(num != lowest) { sum += num; }
     }
     return sum / (arr.length - 1);
+    // int lowestIndex;
+    // for (int i = 0; i < arr.length; i++){
+    //   if (arr[i]<lowest){
+    //     lowest=arr[i];
+    //     lowestIndex=i;
+    //   }
+    // }
+    // for (int i = 0; i < arr.length; i++){
+    //   if (i!=lowestIndex){
+    //     sum+=arr[i]
+    //   }
+    // }
+    // return sum / (arr.length - 1);
   }
-
-
 }
 
